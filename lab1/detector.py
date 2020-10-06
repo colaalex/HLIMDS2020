@@ -1,7 +1,5 @@
 import cv2 as cv
-import sys
 import RPi.GPIO as GPIO
-from time import sleep
 
 
 SENS = 23
@@ -27,9 +25,9 @@ count = 0
 freq = 1
 
 while True:
-#   value - signal from sensor
+    # value - signal from sensor
     value = GPIO.input(SENS)  
-    if value:
+    if value:  # если есть сигнал с датчика
         ret, frame = cap.read()  # читаем кадр из потока
 
         if frame is None:
@@ -46,7 +44,7 @@ while True:
         # проходимся по всем "находкам" сети
         for detection in netOut[0, 0, :, :]:
             score = float(detection[2])
-            if score > 0.5:  # если сеть уверена на 60% в своей "находке"
+            if score > 0.5:  # если сеть уверена на 50% в своей "находке"
                 idx = int(detection[1])  # idx = 1 -> human
 
                 # границы области, на которой обнаружен объект
