@@ -1,0 +1,41 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Vladimir/Desktop/examples/systemverilog/dpi/packed_types
+T_opt
+!s110 1610303530
+VZ1b=j4e=S343W4eSO?T6=1
+04 3 4 work top fast 0
+=1-04d9f5f60417-5ffb482a-6-3e9c
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OE;O;10.4c;61
+vtop
+DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+!s110 1610303529
+!i10b 1
+!s100 C3TE799h]QneU[2BS=34Y3
+I7g^h;VBbNWUInVhQolczi2
+VDg1SIo80bB@j0V0VzS_@n1
+!s105 dpi_xor_v_unit
+S1
+R0
+w1610289346
+8dpi_xor.v
+Fdpi_xor.v
+L0 1
+OE;L;10.4c;61
+r1
+!s85 0
+31
+!s108 1610303529.000000
+!s107 dpi_xor.v|
+!s90 -sv|-dpiheader|dpi_xor.h|dpi_xor.v|dpi_xor.c|
+!i113 0
+o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact

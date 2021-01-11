@@ -1,0 +1,16 @@
+# vsim -c -do "vsim.do" top -pli "vpi_test.so" 
+# Start time: 20:54:15 on Aug 17,2019
+# Loading work.top
+# Loading work.dff
+# Loading work.sudp
+# Loading work.multiplexer
+# Loading vpi_test.so
+# ** Error: (vsim-3193) Load of "vpi_test.so" failed: File not found.
+# 
+# ** Error (suppressible): (vsim-PLI-3002) Failed to load PLI object file "vpi_test.so".
+#    Time: 0 ps  Iteration: 0  Root: /
+# ** Warning: (vsim-PLI-3003) top.v(97): [TOFD] - System task or function '$traverse' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /top/startup File: top.v
+# Error loading design
+# End time: 20:54:15 on Aug 17,2019, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1

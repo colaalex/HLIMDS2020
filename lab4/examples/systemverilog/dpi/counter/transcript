@@ -1,0 +1,67 @@
+# //  Questa Sim
+# //  Version 10.4c win32 Jul 20 2015
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# do run.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is Vladimir@DESKTOP-R9P376I.
+# 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# QuestaSim vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 03:37:06 on Jan 11,2021
+# vlog -reportprogress 300 -sv -dpiheader mux81.h mux81.v mux81.c 
+# -- Compiling module top
+# -- Compiling module CNT25
+# 
+# Top level modules:
+# 	top
+# -- Compiling DPI/PLI C file mux81.c
+# 
+# mux81.c:24:2: warning: no newline at end of file
+# 
+# End time: 03:37:06 on Jan 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c -voptargs=""+acc=rn"" top 
+# Start time: 03:37:06 on Jan 11,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.CNT25(fast)
+# Loading C:/Users/Vladimir/AppData/Local/Temp\Vladimir@DESKTOP-R9P376I_dpi_9200\win32_gcc-4.2.1\vsim_auto_compile.dll
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Vladimir  Hostname: DESKTOP-R9P376I  ProcessID: 7336
+# 
+#           Attempting to use alternate WLF file "./wlftjx1w0k".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftjx1w0k
+# 
+# ERROR:  0 != 25
+# ERROR:  1 != 26
+# ERROR:  2 != 27
+# ERROR:  3 != 28
+# 
+# Simulation finished: DATA MISMATCHES = 4
+# 
+# ** Note: $finish    : mux81.v(78)
+#    Time: 2800 ns  Iteration: 1  Instance: /top
+# 1
+# Break at mux81.v line 78
+add wave -position 3  sim:/top/data
+add wave -position end  sim:/top/e_cnt
+add wave -position end  sim:/top/v_cnt
+# End time: 03:57:50 on Jan 11,2021, Elapsed time: 0:20:44
+# Errors: 0, Warnings: 2

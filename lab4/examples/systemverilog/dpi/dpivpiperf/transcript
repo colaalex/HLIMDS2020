@@ -1,0 +1,53 @@
+# do run.do
+# QuestaSim vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 16:45:34 on Dec 20,2020
+# vlog -sv -dpiheader dpi_adder.h dpi_adder.v vpi_adder.v dpi_adder.c 
+# -- Compiling module dpi_adder
+# -- Compiling module vpi_adder
+# 
+# Top level modules:
+# 	dpi_adder
+# 	vpi_adder
+# -- Compiling DPI/PLI C file dpi_adder.c
+# End time: 16:45:34 on Dec 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# gcc -g -c -m32 -Wall -ansi -pedantic -I. -IC:/questasim_10.4c/include  vpi_adder.c
+# gcc -shared -lm -m32  -Wl,-Bsymbolic -Wl,-export-dynamic -o  vpi_adder.dll vpi_adder.o  -LC:/questasim_10.4c/win32 -lmtipli
+# vsim -vopt -voptargs=""-O5"" dpi_adder -c 
+# Start time: 16:45:34 on Dec 20,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# //  Questa Sim
+# //  Version 10.4c win32 Jul 20 2015
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading sv_std.std
+# Loading work.dpi_adder(fast)
+# Loading C:/Users/Vladimir/AppData/Local/Temp\Vladimir@DESKTOP-R9P376I_dpi_5048\win32_gcc-4.2.1\vsim_auto_compile.dll
+# accumulate = -2063389440
+# 341211 microseconds per iteration
+# End time: 16:45:36 on Dec 20,2020, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+# vsim -vopt -no_autoacc -voptargs="-O5 +acc=r" vpi_adder -pli "vpi_adder.dll" -c 
+# Start time: 16:45:36 on Dec 20,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# Loading sv_std.std
+# Loading work.vpi_adder(fast)
+# Loading C:/Users/Vladimir/AppData/Local/Temp\Vladimir@DESKTOP-R9P376I_dpi_532\win32_gcc-4.2.1\vsim_auto_compile.dll
+# Loading ./vpi_adder.dll
+# accumulate = -2063389440
+# 34601060 microseconds per iteration
+# End time: 16:46:12 on Dec 20,2020, Elapsed time: 0:00:36
+# Errors: 0, Warnings: 0

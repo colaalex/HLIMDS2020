@@ -1,0 +1,43 @@
+# //  Questa Sim
+# //  Version 10.4c win32 Jul 20 2015
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# vsim top 
+# Start time: 06:06:23 on Jan 11,2021
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# 
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading C:/Users/Vladimir/AppData/Local/Temp\Vladimir@DESKTOP-R9P376I_dpi_3184\win32_gcc-4.2.1\vsim_auto_compile.dll
+add wave -position end  sim:/top/out
+add wave -position end  sim:/top/SIGN
+add wave -position end  sim:/top/n
+add wave -position end  sim:/top/v_cnt1
+add wave -position end  sim:/top/results
+# Can't move the Now cursor.
+add wave -position end  sim:/top/out
+add wave -position end  sim:/top/SIGN
+add wave -position end  sim:/top/n
+add wave -position end  sim:/top/v_cnt1
+add wave -position end  sim:/top/results
+run -all
+# 
+# Simulation finished: DATA MISMATCHES = 0
+# 
+# ** Note: $finish    : fibonacci.v(81)
+#    Time: 1 us  Iteration: 1  Instance: /top
+# 1
+# Break at fibonacci.v line 81
+# End time: 06:21:40 on Jan 11,2021, Elapsed time: 0:15:17
+# Errors: 1, Warnings: 0

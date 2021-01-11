@@ -1,0 +1,65 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Vladimir/Desktop/examples/systemverilog/dpi/mux81
+T_opt
+Z1 !s110 1610327490
+Vd<d?84cQeXY1_a=De5ke?3
+04 3 4 work top fast 0
+=1-04d9f5f60417-5ffba5c2-f3-34e0
+o-quiet -auto_acc_if_foreign -work work +acc=rn
+n@_opt
+OE;O;10.4c;61
+vMUX81
+Z2 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+R1
+!i10b 1
+!s100 YSdkoYmKN0h<G2:63VRDa0
+I=LKm31M0b]j^A6[lzB]j`0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 mux81_v_unit
+S1
+R0
+Z5 w1610321248
+Z6 8mux81.v
+Z7 Fmux81.v
+L0 150
+Z8 OE;L;10.4c;61
+r1
+!s85 0
+31
+Z9 !s108 1610327489.000000
+Z10 !s107 mux81.v|
+Z11 !s90 -reportprogress|300|-sv|-dpiheader|mux81.h|mux81.v|mux81.c|
+!i113 0
+Z12 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@m@u@x81
+vtop
+R2
+R1
+!i10b 1
+!s100 RYPekgB17;Y8Y5X9Vdg421
+I=78TQjOhE>0L8cLnkE_g>2
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 14
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12

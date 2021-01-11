@@ -1,0 +1,43 @@
+# do run.do
+# QuestaSim vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 21:32:09 on Jan 10,2021
+# vlog -sv -dpiheader dpi_xor.h dpi_xor.v dpi_xor.c 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# -- Compiling DPI/PLI C file dpi_xor.c
+# 
+# dpi_xor.c:62:2: warning: no newline at end of file
+# 
+# End time: 21:32:09 on Jan 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c top 
+# Start time: 21:32:09 on Jan 10,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# //  Questa Sim
+# //  Version 10.4c win32 Jul 20 2015
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading C:/Users/Vladimir/AppData/Local/Temp\Vladimir@DESKTOP-R9P376I_dpi_16028\win32_gcc-4.2.1\vsim_auto_compile.dll
+# 
+# Input #1       => zx10zx10
+# Input #2       => ffff0000
+# 
+# and_bitvec32   => 00100000
+# End time: 21:32:11 on Jan 10,2021, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0

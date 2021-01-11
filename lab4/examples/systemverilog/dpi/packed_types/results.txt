@@ -1,0 +1,5 @@
+
+Input #1       => zx10zx10
+Input #2       => ffff0000
+
+and_bitvec32   => 00100000

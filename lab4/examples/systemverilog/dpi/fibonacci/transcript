@@ -1,0 +1,40 @@
+# do run.do
+# QuestaSim vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 04:55:42 on Jan 11,2021
+# vlog -sv -dpiheader fibonacci.h fibonacci.v fibonacci.c 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# -- Compiling DPI/PLI C file fibonacci.c
+# End time: 04:55:42 on Jan 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c top 
+# Start time: 04:55:42 on Jan 11,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# //  Questa Sim
+# //  Version 10.4c win32 Jul 20 2015
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading C:/Users/Vladimir/AppData/Local/Temp\Vladimir@DESKTOP-R9P376I_dpi_26892\win32_gcc-4.2.1\vsim_auto_compile.dll
+# 
+# Simulation finished: DATA MISMATCHES = 0
+# 
+# ** Note: $finish    : fibonacci.v(67)
+#    Time: 4600 ns  Iteration: 1  Instance: /top
+# End time: 04:55:57 on Jan 11,2021, Elapsed time: 0:00:15
+# Errors: 0, Warnings: 0

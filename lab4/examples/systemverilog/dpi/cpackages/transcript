@@ -1,0 +1,25 @@
+# do run.do
+# QuestaSim vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 21:32:37 on Jan 10,2021
+# vlog -sv test.sv 
+
+# Loading sv_std.std
+# Loading sv_std.mti_fli
+# Loading work.top(fast)
+# A is 66 at time  1
+# A is 6553 at time  2
+# A is 4660 at time  3
+# A is 4660 at time  3
+# ** Error (suppressible): (vsim-4008) Object 'B' not found.
+# 
+# 
+# A is 66 at time 11
+# A is 6553 at time 12
+# A is 4660 at time 13
+# A is 4660 at time 13
+# ** Error: ** Error (suppressible): (vsim-4008) Object 'B' not found.
+#    Time: 14 ns  Scope: top.mti_Cmd_method File: test.sv Line: 80
+# ** Error (suppressible): (vsim-4008) Object 'B' not found.
+# 
+# End time: 21:32:38 on Jan 10,2021, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0

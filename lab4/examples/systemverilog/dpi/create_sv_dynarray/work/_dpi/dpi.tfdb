@@ -1,0 +1,27 @@
+VERSION 10 1 1
+SYM_BEGIN 7
+2 5
+cdata
+1 4
+size
+5 29
+fetch_sv_dynarray_data_from_C
+6 1
+o
+0 17
+alloc_sv_dynarray
+3 7
+test.sv
+4 18
+create_sv_dynarray
+SYM_END
+TYPEDEF_BEGIN 0
+TYPEDEF_END 
+TF_BEGIN 3
+0 127 
+0 -1 -1 0 2 1 0 0x0 0 0x1 0 1 0x0 1 0 12 0 -1 4 16427 32 0 31 31 0 32 0x1 1 0 2 0x0 1 0 25 0 1 4 32 32 0 0 0 0 32 0x1 1 1 3 43  
+4 33 
+4 -1 -1 6 0 1 0 0x0 0 0x1 1 3 38  
+5 162 
+5 -1 -1 6 2 1 0 0x0 0 0x1 0 2 0x0 1 0 25 0 1 4 32 32 0 0 0 0 32 0x1 1 0 6 0x0 1 0 1 16 1 16 4 0 0 0 -1 0 0x0 1 0 12 0 -1 4 16427 32 0 31 31 0 32 0x1 0x1 3 1 3 39  
+TF_END 

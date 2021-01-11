@@ -1,0 +1,11 @@
+I/O Assignment Analysis Status : Failed - Mon Nov 16 12:32:05 2020
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : cam_proj_deo_cv
+Top-level Entity Name : cam_proj_top
+Family : Cyclone V
+Device : 5CEBA4F23C7
+Timing Models : Final
+Total pins : 87 / 224 ( 39 % )
+Total virtual pins : 0
+Total PLLs : 2 / 4 ( 50 % )
+Total DLLs : 0 / 4 ( 0 % )

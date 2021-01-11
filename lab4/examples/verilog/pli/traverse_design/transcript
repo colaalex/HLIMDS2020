@@ -1,0 +1,22 @@
+# Reading E:/ProgramFiles/QuestaSIM_10_4c_x64/tcl/vsim/pref.tcl
+# //  Questa Sim-64
+# //  Version 10.4c win64 Jul 20 2015
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# OpenFile E:/ProgramFiles/QuestaSIM_10_4c_x64/examples/verilog/pli/traverse_design/traverse_design.do
+E:/ProgramFiles/QuestaSIM_10_4c_x64/examples/verilog/pli/traverse_design/traverse_design.do
+# couldn't execute "E:\ProgramFiles\QuestaSIM_10_4c_x64\examples\verilog\pli\traverse_design\traverse_design.do": no such file or directory
+do E:/ProgramFiles/QuestaSIM_10_4c_x64/examples/verilog/pli/traverse_design/traverse_design.do
+# Please download and install gcc-4.5.0-mingw64.zip from the Mentor ftp site.
+# Using cygwin gcc is not supported.

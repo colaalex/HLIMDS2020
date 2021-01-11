@@ -1,0 +1,62 @@
+# do run.do
+# QuestaSim vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 00:04:38 on Jan 11,2021
+# vlog -sv -dpiheader dpiheader.h test.sv test.c -ccflags -g 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# -- Compiling DPI/PLI C file test.c
+# 
+# cc1.exe: warning: -Wuninitialized is not supported without -O
+# test.c:93:5: warning: no newline at end of file
+# 
+# End time: 00:04:38 on Jan 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c top 
+# Start time: 00:04:38 on Jan 11,2021
+# Loading C:/Users/Vladimir/AppData/Local/Temp\Vladimir@DESKTOP-R9P376I_dpi_23848\win32_gcc-4.2.1\export_tramp.dll
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# //  Questa Sim
+# //  Version 10.4c win32 Jul 20 2015
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading sv_std.std
+# Loading work.top(fast)
+# Compiling C:/Users/Vladimir/AppData/Local/Temp\Vladimir@DESKTOP-R9P376I_dpi_23848\win32_gcc-4.2.1\exportwrapper.c
+# Loading C:/Users/Vladimir/AppData/Local/Temp\Vladimir@DESKTOP-R9P376I_dpi_23848\win32_gcc-4.2.1\vsim_auto_compile.dll
+# new dynamic array size =          20
+# dynarr[0] = 0
+# dynarr[1] = 1
+# dynarr[2] = 2
+# dynarr[3] = 3
+# dynarr[4] = 4
+# dynarr[5] = 5
+# dynarr[6] = 6
+# dynarr[7] = 7
+# dynarr[8] = 8
+# dynarr[9] = 9
+# dynarr[10] = 9
+# dynarr[11] = 8
+# dynarr[12] = 7
+# dynarr[13] = 6
+# dynarr[14] = 5
+# dynarr[15] = 4
+# dynarr[16] = 3
+# dynarr[17] = 2
+# dynarr[18] = 1
+# dynarr[19] = 0
+# End time: 00:04:40 on Jan 11,2021, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0

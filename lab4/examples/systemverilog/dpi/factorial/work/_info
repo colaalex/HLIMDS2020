@@ -1,0 +1,41 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Vladimir/Desktop/examples/systemverilog/dpi/factorial
+T_opt
+Z1 !s110 1610334369
+V411C`3:B5CjzYjdICZLEz0
+04 3 4 work top fast 0
+=1-04d9f5f60417-5ffbc0a1-1dc-114
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OE;O;10.4c;61
+vtop
+DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+R1
+!i10b 1
+!s100 mOB9Dll=J78?VE:ii40hM1
+IjKM]J0]BhVldY]2^bKThA2
+VDg1SIo80bB@j0V0VzS_@n1
+!s105 fibonacci_v_unit
+S1
+R0
+w1610334365
+8fibonacci.v
+Ffibonacci.v
+L0 15
+OE;L;10.4c;61
+r1
+!s85 0
+31
+!s108 1610334369.000000
+!s107 fibonacci.v|
+!s90 -sv|-dpiheader|fibonacci.h|fibonacci.v|fibonacci.c|
+!i113 0
+o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact

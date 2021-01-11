@@ -1,0 +1,41 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Vladimir/Desktop/examples/systemverilog/dpi/create_sv_dynarray
+T_opt
+Z1 !s110 1610312678
+VE=hB:On[hgke=cJda``l10
+04 3 4 work top fast 0
+=1-04d9f5f60417-5ffb6be6-2e8-5d28
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OE;O;10.4c;61
+vtop
+DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+R1
+!i10b 1
+!s100 _NmnWTlY28fUAniUOA5Ue1
+IX6OCJH[M`W@e;zz8i;B]f2
+VDg1SIo80bB@j0V0VzS_@n1
+!s105 test_sv_unit
+S1
+R0
+w1610312521
+8test.sv
+Ftest.sv
+L0 34
+OE;L;10.4c;61
+r1
+!s85 0
+31
+!s108 1610312678.000000
+!s107 test.sv|
+!s90 -sv|-dpiheader|dpiheader.h|test.sv|test.c|-ccflags|-g|
+!i113 0
+o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
